@@ -1,4 +1,4 @@
-#include < stuio.h >
+#include <stuio.h>
 /**
  * main - Entry
  * Return: Always 0
