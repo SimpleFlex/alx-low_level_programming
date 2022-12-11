@@ -3,7 +3,6 @@
  * main - done bysimpleflex
  * Return: Always 0
  */
-main()
 int main(void)
 {
 	printf("size of char: %i byte(s)\n", sizeof(char));
