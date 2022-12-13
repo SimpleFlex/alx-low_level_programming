@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main entry
- * Description: A programme that printsout all the possible combination
- * of three digit and they (the numbers)are separated by a comma and a space
- * return: 0
+ * main - Entry point
+ *
+ * Return: Always 0
  */
 int main(void)
 {
