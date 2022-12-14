@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * time_table - print the 9 times table
+ * time_tables - print the 9 times table
  *
  * Return: nothing on success
  */
-void time_table(void)
+void times_table(void)
 {
 	int s = 0, e = 9, count = 0;
 
