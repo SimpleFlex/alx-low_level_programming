@@ -4,13 +4,13 @@
  * _isalpha - test_isalpha if the character is part of the alphabet
  * @c: character to be checked
  *
- * Return: 1 if @c is a letter otherwise 0
+ * Return: 1 for alphabetic character or 0 for anything else
  */
 int _isalpha(int c)
 {
 	if ((c >= 65 && c <= 98) || (c >= 97 && c <= 122))
 	{
-		return (1);
+	return (1);
 	}
-		return (0);
+	return (0);
 }
