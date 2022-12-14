@@ -5,7 +5,7 @@
  *
  * Return: nothing on success
  */
-void time_table(void)
+void times_table(void)
 {
 	int s = 0, e = 9, count = 0;
 
