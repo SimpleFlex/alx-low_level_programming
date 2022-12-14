@@ -1,14 +1,24 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetical order
+ * print_alphabet_x10 - prints the alphabet in lowercase x10
  *
- * @c: alphabet to check for
- *
- * Return: 1 if c is a letter, 0 otherwise
+ * Return: nothing on success
  */
-int _isalpha(int c)
+void print_alphabet_x10(void)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	int start = 97, end = 122, count = 1;
 
+	while (count <= 10)
+	{
+		while (start <= end)
+		{
+			_putchar(start);
+			start++;
+		}
+		_putchar('\n');
+
+		start = 97;
+		count++;
+	}
 }
