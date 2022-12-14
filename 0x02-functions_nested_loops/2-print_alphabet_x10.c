@@ -1,17 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints alpha 10 times
+ * _isalpha - checks for alphabetical order
+ *
+ * @c: alphabet to check for
+ *
+ * Return: 1 if c is a letter, 0 otherwise
  */
-void print_alphabet_x10(void)
+int _isalpha(int c)
 {
-	int ten;
-	char la;
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 
-	for (la = 0; ten <= 9; ten++)
-	{
-		for (la = 'a'; la <= 'z'; la++)
-			_putchar(la);
-		_putchar('\n');
-	}
 }
