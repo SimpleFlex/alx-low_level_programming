@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - takes a date  and peint how many days are left in the year, taking
+ * Main - takes a date  and peint how many days are left in the year, taking
  * leap years into account
  * Return: 0
  */
