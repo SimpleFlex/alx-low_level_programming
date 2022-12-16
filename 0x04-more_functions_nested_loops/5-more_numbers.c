@@ -5,9 +5,9 @@
  * 10 times
  * Return: no return
  */
-int more_numbers(void)
+void more_numbers(void)
 {
-	int ch;
+	int i,ch;
 
 	for (i = 10; i < 10; i++)
 	{
