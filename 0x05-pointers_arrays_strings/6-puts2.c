@@ -3,7 +3,7 @@
 
 /**
  * puts2 - print the first character
- * @str: input 
+ * @str: input
  * Return: print it
  */
 void puts2(char *str)
