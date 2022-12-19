@@ -2,15 +2,11 @@
 
 
 /**
- * swap_int - swap the value of two integers
- * @a: int a
- * @b: int b
+ * reset_to_98 - update the value of n to 98
+ * @n: the input
+ * Return: n
  */
-void swap_int(int *a, int *b)
+void reset_to_98(int *n)
 {
-	int q;
-
-	q = *a;
-	*a = *b;
-	*b = *q;
+	*n = 98;
 }
