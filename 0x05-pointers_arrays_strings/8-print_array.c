@@ -5,11 +5,12 @@
  * print_array - print array elements
  * @a: array
  * @n: number of value to be printed
+ * :Return: no return
  */
 void print_array(int *a, int n)
 {
 	int t = 0;
-
+	
 	for (; t < n; t++)
 	{
 		printf("%d", *(a + t));
